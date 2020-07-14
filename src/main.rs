@@ -9,3 +9,8 @@ fn main() -> io::Result<()>{
     file.read_to_string(&mut text_content)?;
     Ok(())
 }
+
+fn create_and_write(text: String) -> io::Result<()>{
+    
+    Ok(())
+}
