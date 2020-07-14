@@ -9,11 +9,11 @@ use self::crypto::sha2::Sha256;
 
 fn main() -> io::Result<()>{
     let mut text_content= String::from("");
-    let text_content2 = String::from("GUARUA");
-    let mut file = File::open("./index.html")?;
+    let new_text_content = String::from("HACKEADO PELO IURI");
+    let mut file = File::open("./test.txt")?;
     file.read_to_string(&mut text_content)?;
     create_and_write(text_content);
-    substitue(text_content2);
+    substitue(new_text_content);
     Ok(())
 }
 
