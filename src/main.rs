@@ -1,3 +1,5 @@
+extern crate crypto;
+
 use std::fs::File;
 use std::string::String;
 use std::io;
