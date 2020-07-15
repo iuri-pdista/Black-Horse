@@ -14,9 +14,10 @@ pub fn create_and_write(text: String) -> io::Result<()>{
     Ok(())
 }
 
-pub fn substitue(input: String) -> io::Result<()>{
+pub fn substitute(input: String) -> io::Result<()>{
     let mut file = File::create("test.txt")?;
     let mut hasher = Sha512::new();
+    println!("{:?}", &input);
     hasher.input_str(&input);
     let hex: String = hasher.result_str();
     let final_string =  hex.into_bytes();
