@@ -53,11 +53,12 @@ mv script.sh virus_file <the name of the directory>
 ## And <b> Five </b> TADA :tada: :tada: ENJOY, you've virused your target!
 
 
-## Future features
+## Future features: 
 
 ### The malware is still in development and I intend to continuously updating it until reaches the expected point and features. Some features I want to futurely implement, are:
 
-- Windows OS suport
+- Another script to really steal the datas, sending them to some computer through server conection
+- Windows OS suport 
 - Suport to the more than one file mode
 - Robustness
 - Versability
