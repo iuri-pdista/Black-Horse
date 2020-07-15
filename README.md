@@ -64,4 +64,4 @@ mv script.sh virus_file <the name of the directory>
 - Versability
 
 ## So stay tuned :sparkles:
-<p align="center"> Made with ♥ by [Iuri Corrêa](https://github.com/iuri-pdista) </p>
+<p align="center"> Made with ♥ by <a href="https://github.com/iuri-pdista"> Iuri Corrêa </a></p>
