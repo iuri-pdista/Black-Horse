@@ -46,5 +46,6 @@ mv script.sh virus_file <the name of the directory>
 
 #### Else is just to follow the next step
 
-## And <b> Five </b> TADA :tada: :tada: ENJOY you've virused your target!
+## And <b> Five </b> TADA :tada: :tada: ENJOY, you've virused your target!
 
+Made with ♥ by [Iuri Corrêa](https://github.com/iuri-pdista)
