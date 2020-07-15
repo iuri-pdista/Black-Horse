@@ -19,7 +19,7 @@ do
   echo "Processing $f file..."
   # count number of lines and output that for file $f
   echo"$f"	
-  ./rust_shell "$f"
+  ./virus_file "$f"
 done  
 
 clear
