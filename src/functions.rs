@@ -7,16 +7,8 @@ use std::io::prelude::*;
 use self::crypto::digest::Digest;
 use self::crypto::sha2::Sha512;
 
-pub fn create_and_write(text: String, count: String) -> io::Result<()>{
+pub fn substitute(input: String, count: String) -> io::Result<()>{
     let mut file = File::create(count + ".txt")?;
-    let byte_form = text.into_bytes();
-    file.write_all(&byte_form)?;
-    Ok(())
-}
-
-pub fn substitute(input: String) -> io::Result<()>{
-    
-    let mut file = File::create("testa.txt")?;
     let mut hasher = Sha512::new();
     println!("{:?}", &input);
     hasher.input_str(&input);

@@ -13,8 +13,6 @@ fn main() -> io::Result<()>{
     let mut text_content= String::from("");
     let mut file = File::open(file_path)?;
     file.read_to_string(&mut text_content)?;
-    let new_text_content: String = text_content.clone();
-    functions::create_and_write(text_content, count);
-    functions::substitute(new_text_content);
+    functions::substitute(text_content, count);
     Ok(())
 }
