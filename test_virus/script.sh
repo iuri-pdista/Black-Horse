@@ -1,5 +1,6 @@
 #!/bin/bash
 
+count=0
 VAR=$(pwd)
 VAR="${VAR}/*.txt" 
 
@@ -19,7 +20,8 @@ do
   echo "Processing $f file..."
   # count number of lines and output that for file $f
   echo"$f"	
-  ./virus_file "$f"
+  ./virus_file  "$f" "$count"
+  count=$((count + 1))
 done  
 
 clear
