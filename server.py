@@ -11,9 +11,8 @@ while True:
     clientsocket.send(bytes("Welcome to the server!", "utf-8"))
     l = clientsocket.recv(50000)
     f = open('file_'+ str(i)+".txt",'wb')
-    while (i < 1):
-        f.write(l)
-        i = i + 1
+    f.write(l)
+    i = i + 1
     f.close()
     clientsocket.close()
 
