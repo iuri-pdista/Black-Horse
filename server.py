@@ -10,7 +10,7 @@ print(f"Connection from {address} has been established!")
 clientsocket.send(bytes("Welcome to the server!", "utf-8"))
 l = clientsocket.recv(50000)
 f = open('file_'+ str(i)+".txt",'wb')
-i = i + 1
-while (i < 2):
+while (i < 1):
     f.write(l)
+    i = i + 1
 
