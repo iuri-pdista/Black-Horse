@@ -38,7 +38,7 @@ Test the virus in this enviroment
 
 ##### Or:
 
-You can test it in another directory with at least one .txt <b><u>(The script also works with more than one, but its support it is not the best)</u></b>
+You can test it in another directory with at least one .txt 
 
 ### <b>Four: </b>
 
@@ -59,7 +59,6 @@ mv script.sh virus_file <the name of the directory>
 
 - Another script to really steal the datas, sending them to some computer through server conection
 - Windows OS suport 
-- Suport to the more than one file mode
 - Robustness
 - Versability
 
