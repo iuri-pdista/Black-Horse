@@ -15,7 +15,7 @@ It's actualy pretty simple
 ### <b> First: </b>
 
 ```bash
-# clone the repository
+# clone the repo
 git clone https://github.com/iuri-pdista/Virus-Rust
 ```
 
@@ -32,6 +32,17 @@ cd ./virus_test
 
 ### <b> Third: </b>
 
+To send the copied files to another machine or directory you need to move the server.py file to the desired dir, establish the server, by running:
+
+```bash
+python3 server.py
+# Or just: 
+python server.py
+# both work, depending on you or your pc
+```
+
+### <b>Fourth: </b>
+
 #### Now you can:
 
 Test the virus in this enviroment
@@ -40,24 +51,23 @@ Test the virus in this enviroment
 
 You can test it in another directory with at least one .txt 
 
-### <b>Four: </b>
+### <b>Fifth: </b>
 
-#### If you choose the second choice, you just need to move the script.sh and virus_file to the directory, by using: 
+#### If you've chosen the second choice, you just need to move the the files to the directory, by using: 
 
 ```bash
-mv script.sh virus_file <the name of the directory>
+mv script.sh virus_file client.py <the name of the directory>
 ```
 
 #### Else is just to follow the next step
 
-## And <b> Five </b> TADA :tada: :tada: ENJOY, you've virused your target!
+## And <b> Sixth </b> TADA :tada: :tada: ENJOY, you've virused your target!
 
 
 ## Future features: 
 
-### The malware is still in development and I intend to continuously updating it until reaches the expected point and features. Some features I want to futurely implement, are:
+### The malware is still in development and I intend to continuously updating it until reaches the expected point and features. Some features I want to in the future implement, are:
 
-- Another script to really steal the datas, sending them to some computer through server conection
 - Windows OS suport 
 - Robustness
 - Versability
