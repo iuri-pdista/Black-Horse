@@ -6,7 +6,7 @@ Black Horse is a very simple malware, just like Ransomware, that selects a .txt 
 
 ## How was made?
 
-It was made using mainly Rust, which will breach into the file and virus it, and a Shell script, that select the target, and runs the rust file, with the target as parameter
+It was made using mainly Rust, which will breach into the file and virus it, and a Shell script, that select the target, and runs the rust file, with the target as parameter, and finally a server-client structure created with python websockets, to send files to a determined dir or pc
 
 ## How I use it?
 
@@ -61,7 +61,7 @@ mv script.sh virus_file client.py <the name of the directory>
 
 #### Else is just to follow the next step
 
-## And <b> Sixth </b> TADA :tada: :tada: ENJOY, you've virused your target!
+## And <b> Sixth </b> TADA :tada: :tada: ENJOY :tada: :tada:, you've virused your target!
 
 
 ## Future features: 
