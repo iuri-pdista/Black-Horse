@@ -21,4 +21,3 @@ while True:
     clientsocket.close()
 
 s.close()
-
