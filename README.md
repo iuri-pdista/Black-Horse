@@ -26,8 +26,8 @@ You can just download its zip
 ### <b> Second: </b>
 
 ```bash
-# enter the directory virus_test
-cd ./virus_test
+# enter the test directory
+cd ./test
 ```
 
 ### <b> Third: </b>
