@@ -1,10 +1,10 @@
 #!/bin/bash
 
 count=0
-VAR=$(pwd)
-VAR="${VAR}/*.txt" 
+filePath=$(pwd)
+filePath="${filePath}/*.txt" 
 
-for f in $VAR
+for f in $filePath
 do
   clear
   echo "██░ ██  ▄▄▄       ▄████▄   ██ ▄█▀ ██▓ ███▄    █   ▄████                
